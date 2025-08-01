@@ -1,0 +1,8 @@
+.scattered-image {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0.9;
+  transform-origin: center center;
+  will-change: transform;
+}
