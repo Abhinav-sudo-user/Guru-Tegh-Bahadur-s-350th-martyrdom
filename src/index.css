@@ -1,6 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Tiro+Gurmukhi:ital@0;1&display=swap");
 @import "tailwindcss";
 
-html ,body{
-
+html,
+body {
   height: 100vh;
+  font-family: "Tiro Gurmukhi", serif;
+}
+/* History Page */
+.history-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.history-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 0.75rem 0.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.history-overview {
+  max-width: 640px;
+  font-size: 0.97rem;
+  text-align: justify;
+  line-height: 1.6;
+  color: #1f2937;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.timeline-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 28rem;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-list::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/assets/img/floral.png") no-repeat center;
+  background-size: cover;
+  opacity: 0.07;
+  z-index: 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  position: relative;
+  z-index: 10;
+}
+
+.timeline-card {
+  background-color: #ffedd5;
+  color: #9a3412;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.sikh-icon {
+  object-fit: contain;
+}
+
+.sikh-icon.large {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sikh-icon.small {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Contact Us */
+.heading {
+  background-color: #fdd9a1;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.contact-form {
+  /* background-image: url("/assets/contact_bg_pattern.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.name {
+  width: max-content;
+}
+
+/* Teaching */
+.teaching {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
 }
