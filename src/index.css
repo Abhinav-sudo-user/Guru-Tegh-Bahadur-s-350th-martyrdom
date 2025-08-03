@@ -17,7 +17,6 @@ body {
 .history-image {
   width: 100%;
   max-width: 300px;
-  margin: 0.75rem 0.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }

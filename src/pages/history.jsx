@@ -25,7 +25,7 @@ export default function History() {
       <img
         src={guruImage}
         alt="Guru Tegh Bahadur Ji"
-        className="history-image"
+        className="history-image m-6"
       />
 
       <div className="history-overview">
