@@ -1,6 +1,7 @@
 import Ribbon from "../components/ribbon";
 import guruImage from "./guru1.png";
-// import kesari from "./kesari.png";
+import kesariBg from "./kesari.png";
+
 function Teachings() {
   let list = [
     [
@@ -90,12 +91,10 @@ function Teachings() {
           {list.map((p, idx) => (
             <div
               key={idx}
-              className="relative bg-cover bg-center rounded-xl overflow-hidden w-full max-w-[250px] h-full shadow-md transition-all duration-300 hover:scale-[1.03]"
-              style={{
-                backgroundImage: `./kesari.png`,
-              }}
+              className="teaching relative bg-cover bg-center rounded-xl overflow-hidden w-full max-w-[250px] h-full shadow-md transition-all duration-300 hover:scale-[1.03]"
+              style={{ backgroundImage: `url(${kesariBg})` }}
             >
-              <div className="backdrop-brightness-110 bg-white/70 p-4 h-full flex flex-col justify-between text-center space-y-2 rounded-xl">
+              <div className="backdrop-brightness-110  p-4 h-full flex flex-col justify-between text-center space-y-2 rounded-xl">
                 <div className="inline-block bg-[#fde4ab] text-[#FD782D] font-semibold px-3 py-1 rounded">
                   <p className="text-base">{p[0]}</p>
                   <p className="text-sm">({p[1]})</p>

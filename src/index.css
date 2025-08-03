@@ -99,3 +99,30 @@ body {
   width: 1rem;
   height: 1rem;
 }
+
+/* Contact Us */
+.heading {
+  background-color: #fdd9a1;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.contact-form {
+  /* background-image: url("/assets/contact_bg_pattern.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.name {
+  width: max-content;
+}
+
+/* Teaching */
+.teaching {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+}

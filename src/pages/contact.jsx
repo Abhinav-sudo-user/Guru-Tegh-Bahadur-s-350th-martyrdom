@@ -8,17 +8,17 @@ export default function Contact() {
     >
       <Ribbon text="Contact Us" />
 
-      <h2 className="text-xl font-bold text-center text-black my-4">
+      <h2 className="heading text-xl font-bold text-center text-black my-4">
         Reach Out to Us
       </h2>
 
-      <form className="w-full max-w-md bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-xl">
+      <form className="w-full max-w-md contact-form p-5 rounded-2xl shadow-xl">
         <div className="mb-4">
           <label className="block text-black font-bold mb-1">Email ID:</label>
           <input
             type="email"
             placeholder="Please enter your email address"
-            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+            className="w-full px-4 py-2 rounded-full bg-[#fdd9a1]/60 focus:bg-[#fdd9a1] focus:outline-none"
           />
         </div>
 
@@ -27,7 +27,7 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Please enter your name"
-            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+            className="w-full px-4 py-2 rounded-full bg-[#fdd9a1]/60 focus:bg-[#fdd9a1] focus:outline-none"
           />
         </div>
 
@@ -36,7 +36,7 @@ export default function Contact() {
           <input
             type="tel"
             placeholder="Please enter your phone number"
-            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+            className="w-full px-4 py-2 rounded-full bg-[#fdd9a1]/60 focus:bg-[#fdd9a1] focus:outline-none"
           />
         </div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Please enter your query"
-            className="w-full px-4 py-2 rounded-xl bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+            className="w-full px-4 py-2 rounded-xl bg-[#fdd9a1]/60 focus:bg-[#fdd9a1] focus:outline-none"
           />
         </div>
 
@@ -56,7 +56,7 @@ export default function Contact() {
           <textarea
             placeholder="Please enter any suggestions"
             rows="4"
-            className="w-full px-4 py-2 rounded-xl bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+            className="w-full px-4 py-2 rounded-xl bg-[#fdd9a1]/60 focus:bg-[#fdd9a1] focus:outline-none"
           ></textarea>
         </div>
 

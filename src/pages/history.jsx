@@ -34,8 +34,8 @@ export default function History() {
         </h2>
 
         <p className="mb-2">
-          Guru Tegh Bahadur Ji (Wednesday, April 18, 1621 – Wednesday, November
-          24, 1675), revered as Srisht-di-Chadar (Protector of humanity), was
+          Guru Tegh Bahadur Ji [Wednesday, April 18, 1621 – Wednesday, November
+          24, 1675], revered as Srisht-di-Chadar (Protector of humanity), was
           the ninth Guru of the Sikhs. He became Guru on 16 April 1664,
           succeeding his grand-nephew and the eighth Guru, Guru Har Krishan Ji.
         </p>
