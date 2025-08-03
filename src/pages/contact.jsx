@@ -1,3 +1,72 @@
+import Ribbon from "../components/ribbon";
+
 export default function Contact() {
-  return <div className="p-4 text-2xl">This is the Contact page.</div>;
+  return (
+    <div
+      style={{ fontFamily: "'Tiro Gurmukhi', serif" }}
+      className="flex flex-col items-center px-4 pt-4 contact-bg min-h-screen"
+    >
+      <Ribbon text="Contact Us" />
+
+      <h2 className="text-xl font-bold text-center text-black my-4">
+        Reach Out to Us
+      </h2>
+
+      <form className="w-full max-w-md bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-xl">
+        <div className="mb-4">
+          <label className="block text-black font-bold mb-1">Email ID:</label>
+          <input
+            type="email"
+            placeholder="Please enter your email address"
+            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+          />
+        </div>
+
+        <div className="mb-4">
+          <label className="block text-black font-bold mb-1">Name:</label>
+          <input
+            type="text"
+            placeholder="Please enter your name"
+            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+          />
+        </div>
+
+        <div className="mb-4">
+          <label className="block text-black font-bold mb-1">Phone No:</label>
+          <input
+            type="tel"
+            placeholder="Please enter your phone number"
+            className="w-full px-4 py-2 rounded-full bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+          />
+        </div>
+
+        <div className="mb-4">
+          <label className="block text-black font-bold mb-1">Query:</label>
+          <input
+            type="text"
+            placeholder="Please enter your query"
+            className="w-full px-4 py-2 rounded-xl bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+          />
+        </div>
+
+        <div className="mb-4">
+          <label className="block text-black font-bold mb-1">
+            Suggestions:
+          </label>
+          <textarea
+            placeholder="Please enter any suggestions"
+            rows="4"
+            className="w-full px-4 py-2 rounded-xl bg-[#FEE5BD]/60 focus:bg-[#FEE5BD] focus:outline-none"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          className="w-full bg-[#FEE5BD] hover:bg-[#fdd9a1] text-black font-bold py-2 rounded-full transition-all"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  );
 }
