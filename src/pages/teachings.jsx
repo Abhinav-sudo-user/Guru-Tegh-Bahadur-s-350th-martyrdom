@@ -1,4 +1,4 @@
-import Ribbon from "../components/ribbon";
+import Navbar from "../components/navbar";
 import guruImage from "./guru1.png";
 import kesariBg from "./kesari.png";
 
@@ -58,6 +58,7 @@ function Teachings() {
 
   return (
     <>
+      <Navbar text="Guru Sahib's ji Teaching" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
@@ -69,7 +70,6 @@ function Teachings() {
         rel="stylesheet"
       ></link>
       <div className="flex flex-col p-2 items-center">
-        <Ribbon text="Guru Sahib's ji teaching" />
         <img className="w-50 h-65 m-1.5" src={guruImage} alt="guru" />
         <div
           className=" font-bold text-right"

@@ -1,9 +1,8 @@
-
-import Home from './pages/home'
-import Navbar from './components/navbar'
-import "./App.css"
-import image from "./rr.png"
-import ScatteredBackground from "./components/background/ScatteredBackground"
+import Home from "./pages/home";
+import Navbar from "./components/navbar";
+import "./App.css";
+import image from "./rr.png";
+import ScatteredBackground from "./components/background/ScatteredBackground";
 import History from "./pages/history";
 import Teachings from "./pages/teachings";
 import Legacy from "./pages/legacy";
@@ -14,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <ScatteredBackground imageSrc={image} count={20} size={80} />
       <Routes>
         <Route path="/" element={<Home />} />
